@@ -1,0 +1,6 @@
+D:\Data\Visual Studio\Cpp\SQLExplorer\SQLExplorer\x64\Debug\SQLExplorer.vcxproj.AssemblyReference.cache
+D:\Data\Visual Studio\Cpp\SQLExplorer\SQLExplorer\x64\Debug\SQLExplorer.SetUserData.resources
+D:\Data\Visual Studio\Cpp\SQLExplorer\SQLExplorer\x64\Debug\SQLExplorer.vcxproj.GenerateResource.cache
+D:\Data\Visual Studio\Cpp\SQLExplorer\SQLExplorer\x64\Debug\SQLExplorer.FMySQL.resources
+D:\Data\Visual Studio\Cpp\SQLExplorer\SQLExplorer\x64\Debug\SQLExplorer.FSQLite.resources
+D:\Data\Visual Studio\Cpp\SQLExplorer\SQLExplorer\x64\Debug\SQLExplorer.Main.resources

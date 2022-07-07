@@ -1,0 +1,8 @@
+﻿  FMySQL.cpp
+  Main.cpp
+  SQLExplorer.cpp
+  SetUserData.cpp
+  正在產生程式碼...
+  AssemblyInfo.obj : 發現 MSIL 模組。MSIL 的累加連結已停用。正在執行完整連結
+MySQLite.obj : warning LNK4248: 無法解析的 typeref 語彙基元 (0100001C) (對 'sqlite3' 而言)，映像可能無法執行
+  SQLExplorer.vcxproj -> D:\Data\Visual Studio\Cpp\SQLExplorer\x64\Debug\SQLExplorer.exe
