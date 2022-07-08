@@ -16,7 +16,7 @@ SQLExplorer::FSQLite::~FSQLite()
 	}
 	if (mySQLite != NULL)
 	{
-		mySQLite = NULL;
+		delete mySQLite;
 	}
 }
 
