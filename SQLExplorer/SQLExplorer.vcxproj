@@ -158,7 +158,7 @@
     <ClInclude Include="MySQLite.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
-    <ClInclude Include="SetUserData.h">
+    <ClInclude Include="FUserData.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
@@ -176,7 +176,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="SetUserData.cpp" />
+    <ClCompile Include="FUserData.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico" />
@@ -198,8 +198,8 @@
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.h</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SetUserData.resx">
-      <DependentUpon>SetUserData.h</DependentUpon>
+    <EmbeddedResource Include="FUserData.resx">
+      <DependentUpon>FUserData.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

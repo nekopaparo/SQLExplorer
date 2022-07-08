@@ -1,7 +1,7 @@
 #include "pch.h"
 
 #include "FMySQL.h"
-#include "SetUserData.h"
+#include "FUserData.h"
 
 #include "MyMYSQL.h"
 
@@ -14,7 +14,7 @@ SQL::MyMYSQL* myMYSQL = NULL;
 SQL::USER* USER = NULL;
 
 void SQLExplorer::FMySQL::set() {
-	Form^ f = gcnew SQLExplorer::SetUserData(&USER->host, &USER->user, &USER->password, &USER->dbName);
+	Form^ f = gcnew SQLExplorer::FUserData(&USER->host, &USER->user, &USER->password, &USER->dbName);
 	f->Show();
 }
 

@@ -29,7 +29,7 @@
     <ClInclude Include="MyMYSQL.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="SetUserData.h">
+    <ClInclude Include="FUserData.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="Main.h">
@@ -58,7 +58,7 @@
     <ClCompile Include="MyMYSQL.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="SetUserData.cpp">
+    <ClCompile Include="FUserData.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">

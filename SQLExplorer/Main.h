@@ -1,6 +1,6 @@
 #pragma once
 
-#include "SetUserData.h"
+#include "FUserData.h"
 #include "FSQLite.h"
 
 namespace SQLExplorer {
@@ -105,14 +105,14 @@ namespace SQLExplorer {
 			this->MaximizeBox = false;
 			this->MinimizeBox = false;
 			this->Name = L"Main";
-			this->Text = L"Main";
+			this->Text = L"SQLExplorer";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
 	private: System::Void MySQL_Click(System::Object^ sender, System::EventArgs^ e) {
-		Form^ mysql = gcnew SQLExplorer::SetUserData();
+		Form^ mysql = gcnew SQLExplorer::FUserData();
 		mysql->Show();
 	}
 	private: System::Void btn_SQLite_Click(System::Object^ sender, System::EventArgs^ e) {
